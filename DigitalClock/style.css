@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0d941, #b3c514);
+    color: rgb(69, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Jersey 10';
+    
+}
+
+.clock-container{
+    text-align: center;
+}
+
+#text{
+    font-size: 100px;
+}
+
+#clock{
+    font-size: 200px;
+    letter-spacing: 20px;
+}

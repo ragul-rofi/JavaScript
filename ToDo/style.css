@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: 'Poppins';
+    background: linear-gradient(to right, #312ee6, #77eded);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 0;
+    
+}
+
+.todo-container{
+    width: 350px;
+    background: #fff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 8px 16px 1px #065152;
+    text-align: center;
+}
+
+.input-grp{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#todo-input{
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    border: 1px solid #6a6a6a;
+    border-radius: 8px;
+}
+
+#add-btn{
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Poppins';
+    margin-top: 16px;
+    width: 80px;
+    align-self: flex-end;
+    border-radius: 8px;
+    border: transparent;
+    background-color: #6e75b3;
+    color: #ffffff;
+    transition: 0.2s ease;
+}
+
+
+#add-btn:hover{
+    background: #74f18d;
+    color: #000000;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    background-color: #c4c4c4;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+
+}
+
+li span{
+    word-break: break-word;
+    text-align: left;
+    flex: 1;
+    margin-right: 1px;
+
+}
+
+button.delete-btn{
+    background-color: rgb(255, 108, 108);
+    font-family: 'Poppins';
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button.delete-btn:hover{
+    background-color: #dc3535;
+}
