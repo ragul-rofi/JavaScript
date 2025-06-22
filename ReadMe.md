@@ -44,3 +44,22 @@ Each folder contains a small project or concept, complete with:
    ```bash
    git clone https://github.com/your-username/JavaScript.git
    cd JavaScript
+
+
+## Getting Started
+
+To run this project:
+
+1.  **Navigate to the project folder:**
+    ```bash
+    cd todo-app/
+    ```
+2.  **Launch in your browser:**
+    * Open `index.html` directly, or
+    * For a smoother experience, use the [VS Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+
+---
+
+## Learning Approach
+
+This repository is designed for hands-on learning through **project-based development**. You won't find lengthy tutorials here – just the opportunity to learn by doing. Everything is built from scratch using **raw JavaScript**, without the use of any frameworks.
