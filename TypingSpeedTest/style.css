@@ -10,7 +10,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
 }
 
 .container{
@@ -18,7 +17,7 @@ body{
     background: #fff;
     padding: 30px;
     border-radius: 16px;
-    box-shadow: 10px 16px 5px #3e3e3e;
+    box-shadow: -15px 14px 9px #000000;
     text-align: center;
 }
 
@@ -35,6 +34,7 @@ textarea{
     margin-top: 15px;
     margin-bottom: 20px;
     border-radius: 10px;
+    box-shadow: -6px 6px 1px #d9d7d7;
 }
 
 .stats{
@@ -46,7 +46,7 @@ textarea{
 
 button{
     padding: 10px 20px;
-    background: #9dff82;
+    background: #6ffa48;
     font-family: 'Poppins';
     font-weight: 600;
     border: none;
@@ -54,9 +54,23 @@ button{
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s ease;
-    
+
 }
-button:hover{
-    background: #14ff03;
-    font-size: 20px;
+
+button:hover {
+    background: #5ee835;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 5px #656565;
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: -2px 2px 0px #d9d7d7;
+    background: #4dd625;
+    transition: 0.3s ease;
+}
+
+button:focus {
+    outline: 2px solid #4dd625;
+    outline-offset: 2px;
 }

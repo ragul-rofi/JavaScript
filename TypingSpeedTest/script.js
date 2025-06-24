@@ -16,8 +16,8 @@ const sentences = [
 let startTime, interval;
 let totaltyped = 0;
 let correctTyped = 0;
-let timeLimit = 60; // seconds
-let currentQuote = ""; // Store the current quote separately
+let timeLimit = 60; 
+let currentQuote = ""; 
 
 startBtn.addEventListener("click", startTest);
 
@@ -27,9 +27,9 @@ function startTest() {
     inputbox.focus();
     startBtn.disabled = true;
 
-    // Get a new random quote and store it
+    
     currentQuote = getRandomQuote();
-    // Set the initial quote to plain text
+    
     quoteDisplay.textContent = currentQuote;
 
     timertext.textContent = `Time: ${timeLimit}s`;
@@ -109,7 +109,7 @@ inputbox.addEventListener("input", () => {
     const accuracy = totaltyped === 0 ? 100 : Math.round((correctTyped / totaltyped) * 100);
     accuracytext.textContent = `Accuracy: ${accuracy}%`;
 
-    // Optionally, stop the test if the user finishes typing the entire quote
+// Optionally, stop the test if the user finishes typing the entire quote
     if (typed.length === expected.length && correctTyped === expected.length) {
         endTest();
     }
